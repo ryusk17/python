@@ -99,3 +99,12 @@ def three(a, b, c):
 
 def do_four(f, a, b, c):
     f(a, b, c)
+
+
+print(dict([("abc", 123), ("xyz", 987)]))
+
+string1, string2, string3 = "", "", "b"
+print(string1 or string2 or string3)
+
+print(dir())
+print(__name__)
